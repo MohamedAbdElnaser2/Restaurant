@@ -1,0 +1,297 @@
+ body
+
+   .parent{
+
+    background-color:white;
+    margin-bottom: 50px;
+   }
+ .counter{
+    width: 100%;
+    margin: auto;
+    
+    
+ }
+ .chef{
+   float: left;
+    width: 300px;
+    height: auto; 
+    border: solid 2px transparent;
+    border-spacing: 2px;
+    border-radius:2vh;
+    
+   
+    transition: transform 1s  ;
+    overflow: auto;
+}
+
+.chef img{
+    width: 100%;
+}
+.chef{
+    margin: 10px;
+    
+}
+.chef:hover{
+    transform:scale(1.1) ;
+
+}
+p,.p1,h2{
+    text-align: center;
+  font-family: "Brygada 1918", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+.chef{
+    border-bottom: 4px;
+ 
+}
+span{
+    color: red;
+}
+.pfont{
+
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    padding:0px 0px  ;
+}
+h3{
+    padding: 0px 0px;
+   text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.fix-clear{
+    clear: both;
+}
+
+/*second part left*/
+.width{
+    width: 300px;
+    height: auto;
+}
+.contener{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+ .pfont{
+    text-align: center;
+}
+ 
+.left .lef1{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.left .layer{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.lef1:hover .layer{
+    top: 0;
+}
+.lef1 img:hover{
+    transform: scale(1.2);
+}
+
+
+.left .lef1 {
+    float: right;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.left .lef1 img{
+    width: 100%;
+    
+}
+
+.left .lef2 img{
+    width: 100%;
+
+}
+.left .lef2{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.left .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.lef2:hover .layer{
+    top: 0;
+}
+.lef2 img:hover{
+    transform: scale(1.2);
+}
+
+/*right*/
+
+    
+.right .ri1 {
+   
+    margin-bottom: 20px;
+}
+.right  .ri1 img{
+    width: 100%;
+}
+.right .ri1{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.right .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.ri1:hover .layer{
+    top: 0;
+}
+.ri1 img:hover{
+    transform: scale(1.2);
+}
+
+.right .ri2 {
+    
+    margin-bottom:20px;
+}
+.right .ri2  img{
+    width: 100%;
+} 
+
+.right .ri2{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.right .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.ri2:hover .layer{
+    top: 0;
+}
+.ri2 img:hover{
+    transform: scale(1.2);
+}
+
+.right .ri3{
+   
+    margin-top: 20px;
+}
+.right .ri3  img{
+    width: 100%;
+}
+.right .ri3{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.right .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.ri3:hover .layer{
+    top: 0;
+}
+.ri3 img:hover{
+    transform: scale(1.2);
+}
+
+/*mid*/ 
+.cobra .mid{
+    margin-right: 20px
+    
+}
+.mid .mid1 {
+   
+    margin-bottom: 20px;
+}
+.mid .mid1 img{
+    width: 100%;
+}
+.mid .mid1{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mid .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.mid:hover .layer{
+    top: 0;
+}
+.mid1 img:hover{
+    transform: scale(1.2);
+}
+
+.mid .mid2 img{
+    width: 100%;
+}
+.mid .mid2{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mid .layer{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    bottom: 0;
+    transition: all 1s;
+    
+}
+.mid:hover .layer{
+    top: 0;
+}
+.mid2 img:hover{
+    transform: scale(1.2);
+}
+
+    
+    
